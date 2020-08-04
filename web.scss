@@ -199,3 +199,18 @@ form {
         }
     }
 }
+
+.footer {
+    border-top: $rule-thickness solid $color-text-main;
+    font-size: 0.9rem;
+    padding: 2rem 1rem 4rem 1rem;
+
+    .footer-content {
+        margin: auto;
+        max-width: $max-width;
+
+        p {
+            margin: 0;
+        }
+    }
+}

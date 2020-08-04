@@ -60,4 +60,10 @@ form { margin-bottom: 1.4; }
 
 .episodes .episode .number { float: right; }
 
+.footer { border-top: 1.3px solid #262626; font-size: 0.9rem; padding: 2rem 1rem 4rem 1rem; }
+
+.footer .footer-content { margin: auto; max-width: 35rem; }
+
+.footer .footer-content p { margin: 0; }
+
 /*# sourceMappingURL=web.css.map */
