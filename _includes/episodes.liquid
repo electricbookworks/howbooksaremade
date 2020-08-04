@@ -1,0 +1,46 @@
+{% comment %} Get an array of published episodes
+with the most recent first {% endcomment %}
+{% assign episodes = site.data.episodes | where_exp: "entry", "entry.status == 'published'" | sort: "number" | reverse %}
+
+<ul class="episodes">
+
+    {% for episode in episodes %}
+
+        <li class="episode">
+
+            <div class="date">
+                {{ episode.date | date: "%d %b %Y" }}
+            </div>
+
+            <h2 id="{{ episode.title | slugify }}">
+                <a href="#{{ episode.title | slugify }}">
+                    {{ episode.title }}
+                </a>
+            </h2>
+
+            {% if episode.guests %}
+
+                <p class="guests">
+
+                    With
+
+                        {% for guest in episode.guests %}
+                            {{ site.data.people[guest].name }}{% unless forloop.last %}, {% endunless %}
+                        {% endfor %}
+                </p>
+
+            {% endif %}
+
+            <div class="description">
+                {{ episode.description | markdownify }}
+            </div>
+
+            <div class="notes">
+                {{ episode.notes | markdownify }}
+            </div>
+
+        </li>
+
+    {% endfor %}
+
+</ul>

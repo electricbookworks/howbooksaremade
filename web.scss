@@ -3,42 +3,67 @@
 
 // Fonts
 $fonts-system: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-$fonts-serif: "Apple Garamond", "Baskerville", "Times New Roman", "Droid Serif", "Times","Source Serif Pro", serif;
+$fonts-serif: "Spectral", serif;
+$fonts-small-caps: "Spectral SC", serif;
 $fonts-monospace: "SF Mono", "Monaco", "Inconsolata", "Fira Mono", "Droid Sans Mono", "Source Code Pro", monospace;
 
 // Sizes
-$max-width: 40em;
-$border-radius: 0.2em;
-$line-height: 1.4em; // set in ems
-$rule-thickness: 1px;
-$input-padding: 0.2em;
-$break-point-l: 60em;
+$font-size: 1.15rem;
+$max-width: 35rem;
+$border-radius: 0.2rem;
+$line-height: 1.4;
+$rule-thickness: 1.3px;
+$input-padding: 0.2rem;
+$break-width-small: 30rem;
+$break-width-medium: 40rem;
+$break-width-large: 60rem;
 
 // Colours
-$color-text-main: #222222;
-$color-mid: #c0c0c0;
+$color-text-main: #262626;
+$color-background: #f9f9f9;
+$color-mid: #aaa;
 $color-links: #4169E1;
 $color-code-background: #EEEEEE;
+
+// Imports
+
+@import url('https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spectral+SC:wght@500&display=swap');
 
 // Basic elements
 
 body, html {
-	overflow-x: hidden;
-	font-family: $fonts-system;
-	margin: auto;
-	padding: $line-height * 0.5;
-	line-height: $line-height;
+	background-color: $color-background;
 	color: $color-text-main;
+	font-family: $fonts-serif;
+	font-size: $font-size;
+	line-height: $line-height;
+	margin: auto;
+	overflow-x: hidden;
+	padding: 0;
 }
-body {
+.wrapper {
+	margin: auto;
 	max-width: $max-width;
+	padding: 1rem;
 }
-h1, h2, h3 {
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 500;
 	line-height: $line-height * 0.8;
-	margin: ($line-height * 2) 0 ($line-height * 0.5) 0;
 	& + & {
 		margin-top: 0;
 	}
+}
+h1 {
+	margin: 2rem 0 1rem 0;
+
+	@media only screen and (min-width: $break-width-small) {
+		margin: 5rem 0 1rem 0;
+	}
+	margin-bottom: 1rem;
+}
+p {
+	margin: 0 0 1rem 0;
 }
 code, pre {
 	font-family: $fonts-monospace;
@@ -70,8 +95,15 @@ input {
 form {
 	margin-bottom: $line-height;
 }
-button {
-	font-family: $fonts-system;
+.button {
+	padding: 0.4rem 0.5rem 0.3rem 0.5rem;
+	background: $color-links;
+	color: white;
+	font-weight: 500;
+
+	&:hover {
+		background: $color-text-main;
+	}
 }
 
 // Common best practice classes
@@ -84,4 +116,63 @@ button {
 	padding: 0;
 	position: absolute;
 	width: 1px;
+}
+
+// Features
+
+.tagline {
+	font-size: 1.3rem;
+	font-style: italic;
+	margin-bottom: 4rem;
+
+	// Line on left
+	position: relative;
+	&:before {
+		border-top: $rule-thickness solid $color-text-main;
+		content: "";
+		display: inline-block;
+		position: absolute;
+		width: 2rem;
+		left: -3rem;
+		top: 0.8rem;
+	}
+}
+
+.episodes {
+	list-style-type: none;
+	margin-bottom: 2rem;
+	margin-top: 6rem;
+	padding: 0;
+
+	.episode {
+
+		margin-bottom: 5rem;
+
+		h2 {
+			margin: 0;
+
+			// If no guests, add margin
+			& + .description {
+				margin-top: 1rem;
+			}
+		}
+
+		.guests {
+			font-style: italic;
+		}
+
+		.date {
+			color: $color-mid;
+			font-family: $fonts-small-caps;
+			font-size: 1rem;
+			font-weight: 500;
+			letter-spacing: 0.05rem;
+			margin-bottom: 1rem;
+			text-transform: lowercase;
+		}
+
+		.number {
+			float: right;
+		}
+	}
 }

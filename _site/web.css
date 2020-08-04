@@ -1,27 +1,55 @@
-body, html { overflow-x: hidden; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; margin: auto; padding: 0.7em; line-height: 1.4em; color: #222222; }
+@import url("https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,500;1,400;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Spectral+SC:wght@500&display=swap");
+body, html { background-color: #f9f9f9; color: #262626; font-family: "Spectral", serif; font-size: 1.15rem; line-height: 1.4; margin: auto; overflow-x: hidden; padding: 0; }
 
-body { max-width: 40em; }
+.wrapper { margin: auto; max-width: 35rem; padding: 1rem; }
 
-h1, h2, h3 { line-height: 1.12em; margin: 2.8em 0 0.7em 0; }
+h1, h2, h3, h4, h5, h6 { font-weight: 500; line-height: 1.12; }
 
-h1 + h1, h1 + h2, h1 + h3, h2 + h1, h2 + h2, h2 + h3, h3 + h1, h3 + h2, h3 + h3 { margin-top: 0; }
+h1 + h1, h1 + h2, h1 + h3, h1 + h4, h1 + h5, h1 + h6, h2 + h1, h2 + h2, h2 + h3, h2 + h4, h2 + h5, h2 + h6, h3 + h1, h3 + h2, h3 + h3, h3 + h4, h3 + h5, h3 + h6, h4 + h1, h4 + h2, h4 + h3, h4 + h4, h4 + h5, h4 + h6, h5 + h1, h5 + h2, h5 + h3, h5 + h4, h5 + h5, h5 + h6, h6 + h1, h6 + h2, h6 + h3, h6 + h4, h6 + h5, h6 + h6 { margin-top: 0; }
 
-code, pre { font-family: "SF Mono", "Monaco", "Inconsolata", "Fira Mono", "Droid Sans Mono", "Source Code Pro", monospace; background-color: #EEEEEE; padding: 0.1em 0.3em; border-radius: 0.2em; }
+h1 { margin: 2rem 0 1rem 0; margin-bottom: 1rem; }
+
+@media only screen and (min-width: 30rem) { h1 { margin: 5rem 0 1rem 0; } }
+
+p { margin: 0 0 1rem 0; }
+
+code, pre { font-family: "SF Mono", "Monaco", "Inconsolata", "Fira Mono", "Droid Sans Mono", "Source Code Pro", monospace; background-color: #EEEEEE; padding: 0.1em 0.3em; border-radius: 0.2rem; }
 
 pre { overflow-x: scroll; }
 
 code { line-height: 0; }
 
-hr { margin: 2.8em 0; border: none; border-top: 1px solid #c0c0c0; }
+hr { margin: 2.8 0; border: none; border-top: 1.3px solid #aaa; }
 
 a { text-decoration: none; color: #4169E1; }
 
-input { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; padding: 0.2em; border: 1px solid #c0c0c0; border-radius: 0.2em; }
+input { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; padding: 0.2rem; border: 1.3px solid #aaa; border-radius: 0.2rem; }
 
-form { margin-bottom: 1.4em; }
+form { margin-bottom: 1.4; }
 
-button { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; }
+.button { padding: 0.4rem 0.5rem 0.3rem 0.5rem; background: #4169E1; color: white; font-weight: 500; }
+
+.button:hover { background: #262626; }
 
 .visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
+
+.tagline { font-size: 1.3rem; font-style: italic; margin-bottom: 4rem; position: relative; }
+
+.tagline:before { border-top: 1.3px solid #262626; content: ""; display: inline-block; position: absolute; width: 2rem; left: -3rem; top: 0.8rem; }
+
+.episodes { list-style-type: none; margin-bottom: 2rem; margin-top: 6rem; padding: 0; }
+
+.episodes .episode { margin-bottom: 5rem; }
+
+.episodes .episode h2 { margin: 0; }
+
+.episodes .episode h2 + .description { margin-top: 1rem; }
+
+.episodes .episode .guests { font-style: italic; }
+
+.episodes .episode .date { color: #aaa; font-family: "Spectral SC", serif; font-size: 1rem; font-weight: 500; letter-spacing: 0.05rem; margin-bottom: 1rem; text-transform: lowercase; }
+
+.episodes .episode .number { float: right; }
 
 /*# sourceMappingURL=web.css.map */

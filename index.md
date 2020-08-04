@@ -4,14 +4,12 @@ title: "How Books Are Made"
 
 # How Books Are Made
 
-*A podcast about the art and science of making books.*
+A podcast about the art and science of&nbsp;making&nbsp;books
+{:.tagline}
 
-Host [Arthur Attwell](https://arthurattwell.com) speaks to pioneers in design and production to find out how they made their books, and to answer your questions about making yours – whether you're crafting books for print or screen, at a big company or a boutique publisher.
+[Arthur Attwell](https://arthurattwell.com) speaks to book-making pioneers about design, production, marketing, distribution, and technology, and answers your questions. These are conversations for book lovers and publishing decision makers, whether you're crafting books at a big company or a boutique publisher.
 
-## Ask a question
 
-Do you have a question about how books are made? [Ask it here](){:.button}
+[Ask a question](https://forms.gle/RkdMEwSaB49LZDN88){:.button}
 
-## Episodes
-
-Coming soon.
+{% include episodes.liquid %}
