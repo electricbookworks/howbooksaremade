@@ -17,6 +17,6 @@
   guests:
     - sam-beckbessinger
   description: ""
-  notes: "The show notes here will include links to sites mentioned on the show, like [Book Dash](https://bookdash.org), and to Jess's work."
+  notes: "The show notes here will include links to sites mentioned on the show."
   date: 2020-08-22
-  status: published
+  status: pending
