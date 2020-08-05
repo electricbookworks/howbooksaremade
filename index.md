@@ -9,7 +9,7 @@ A podcast about the art and science of&nbsp;making&nbsp;books
 
 [Arthur Attwell](https://arthurattwell.com/about) speaks to book-making pioneers about design, production, marketing, distribution, and technology, and answers your questions. These are conversations for book lovers and publishing decision makers, whether you're crafting books at a big company or a boutique publisher. *Coming soon.*
 
-[Ask a question](https://forms.gle/RkdMEwSaB49LZDN88){:.button}
+[Ask a question](https://bit.ly/hbam-question){:.button}
 [Contact](https://electricbookworks.com/contact){:.button .button-light}
 
 {% include episodes.liquid %}
