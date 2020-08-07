@@ -15,6 +15,16 @@
         content="{% if page.description and page.description != "" %}{{ page.description | markdownify | strip_html }}{% elsif page.excerpt and page.excerpt != "" %}{{ page.excerpt | markdownify | strip_html }}{% else %}{{ site.data.settings.description }}{% endif %}" />
     <meta property="og:site_name" content="{{ site.data.settings.title }}" />
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-27798626-7"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', '{{ site.data.settings.google-analytics-id }}');
+    </script>
+
 </head>
 <body>
     <div class="wrapper">
