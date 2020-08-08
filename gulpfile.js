@@ -28,10 +28,10 @@ var filetypes = 'jpg,jpeg,gif,png';
 
 // Output file sizes in px
 var sizes = {
-    default: "512",
-    large: "256",
-    medium: "128",
-    small: "64"
+    default: "1400",
+    large: "1024",
+    medium: "640",
+    small: "320"
 };
 
 // User guidance
