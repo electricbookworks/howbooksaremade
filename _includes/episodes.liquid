@@ -31,6 +31,19 @@ with the most recent first {% endcomment %}
 
             {% endif %}
 
+            {% if episode.mp3 and episode.mp3 != "" %}
+                <div class="player">
+                    <audio class="js-player" controls>
+
+                        {% if episode.mps contains "http" %}
+                            <source src="{{ episode.mp3 }}" type="audio/mp3" />
+                        {% else %}
+                            <source src="{{ site.baseurl }}/media/{{ episode.mp3 }}" type="audio/mp3" />
+                        {% endif %}
+                    </audio>
+                </div>
+            {% endif %}
+
             <div class="description">
                 {{ episode.description | markdownify }}
             </div>

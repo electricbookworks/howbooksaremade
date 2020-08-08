@@ -1,0 +1,204 @@
+// Basic elements
+
+body, html {
+    background-color: $color-background;
+    color: $color-text-main;
+    font-family: $fonts-serif;
+    font-size: $font-size;
+    line-height: $line-height;
+    margin: auto;
+    overflow-x: hidden;
+    padding: 0;
+}
+
+.wrapper {
+    margin: auto;
+    max-width: $max-width;
+    padding: 1rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+    line-height: $line-height * 0.8;
+    & + & {
+        margin-top: 0;
+    }
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 2rem 0 1rem 0;
+
+    @media only screen and (min-width: $break-width-small) {
+        margin: 5rem 0 1rem 0;
+    }
+    @media only screen and (min-width: $break-width-medium) {
+        font-size: 4rem;
+        position: relative;
+        left: calc((80vw - #{$max-width}) / 2 * -1);
+        right: calc((80vw - #{$max-width}) / 2 * -1);
+        text-align: center;
+        width: 80vw;
+    }
+    @media only screen and (min-width: $break-width-large) {
+        font-size: 5rem;
+    }
+}
+
+p {
+    margin: 0 0 1rem 0;
+}
+
+code, pre {
+    font-family: $fonts-monospace;
+    background-color: $color-code-background;
+    padding: 0.1em 0.3em;
+    border-radius: $border-radius;
+}
+
+pre {
+    overflow-x: scroll;
+}
+
+code {
+    line-height: 0; // stop code spans from widening lines
+}
+
+hr {
+    margin: ($line-height * 2) 0;
+    border: none;
+    border-top: $rule-thickness solid $color-mid;
+}
+
+a {
+    text-decoration: none;
+    color: $color-links;
+}
+
+input {
+    font-family: $fonts-system;
+    padding: $input-padding;
+    border: $rule-thickness solid $color-mid;
+    border-radius: $border-radius;
+}
+
+form {
+    margin-bottom: $line-height;
+}
+
+.button {
+    padding: 0.4rem 0.5rem 0.3rem 0.5rem;
+    background: $color-links;
+    border: $rule-thickness solid $color-links;
+    color: white;
+    font-weight: 500;
+
+    &:hover {
+        background: $color-text-main;
+        border-color: $color-text-main;
+    }
+
+    &.button-light {
+        background-color: $color-background;
+        color: $color-links;
+
+        &:hover {
+            background-color: $color-text-main;
+            color: white;
+        }
+    }
+}
+
+// Common best practice classes
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+// Features
+
+.tagline {
+    font-size: 1.3rem;
+    font-style: italic;
+    margin-bottom: 4rem;
+
+    // Line on left
+    position: relative;
+    &:before {
+        border-top: $rule-thickness solid $color-text-main;
+        content: "";
+        display: inline-block;
+        margin-right: 0.3rem;
+        position: relative;
+        top: -0.3rem;
+        width: 2rem;
+    }
+}
+
+.episodes {
+    list-style-type: none;
+    margin-bottom: 2rem;
+    margin-top: 6rem;
+    padding: 0;
+
+    .episode {
+
+        margin-bottom: 5rem;
+
+        h2 {
+            margin: 0;
+
+            // If no guests, add margin
+            & + .description {
+                margin-top: 1rem;
+            }
+        }
+
+        .guests {
+            font-style: italic;
+        }
+
+        .date {
+            color: $color-mid;
+            font-family: $fonts-small-caps;
+            font-size: 1rem;
+            font-weight: 500;
+            letter-spacing: 0.05rem;
+            margin-bottom: 1rem;
+            text-transform: lowercase;
+        }
+
+        .number {
+            float: right;
+        }
+
+        .description,
+        .notes {
+            & > ul, & > ol {
+                list-style-type: disc;
+                padding-left: 1rem;
+            }
+        }
+    }
+}
+
+.footer {
+    border-top: $rule-thickness solid $color-text-main;
+    font-size: 0.9rem;
+    padding: 2rem 1rem 4rem 1rem;
+
+    .footer-content {
+        margin: auto;
+        max-width: $max-width;
+
+        p {
+            margin: 0;
+        }
+    }
+}

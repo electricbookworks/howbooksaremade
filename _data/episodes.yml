@@ -1,9 +1,17 @@
-- title: "How Books Are Made: Trailer"
+- title: "Trailer: Books, Love, and Family"
   number: 0
+  mp3: "hbam--000-trailer--202008071755.mp3"
   description: "How Books Are Made is a podcast about the art and science of making books. It's for book lovers who believe that details matter, on paper and on screen: from the feel of the paper to the shapes of the ligatures, from hyperlinks to accessibility. If you want more intriguing book-making nerdery, subscribe in your podcast player to get the next episode, and see what you think."
-  notes: ""
+  notes: |
+    In this short trailer, Arthur Attwell describes some of his favourite books, not for their content but for the way they have been physically made: an enormous production from 1902, a marketing marvel, a Wonderland ebook, and the book that nearly injured his mother to get him married.
+
+    Links from the show:
+
+    - [The Home Hand-Book of Domestic Hygiene and Rational Medicine by JH Kellogg](https://archive.org/details/J.H.KelloggHomeHand-bookOfDomesticHygieneAndRationalMedicine1896)
+    - [Penguin 60s](https://en.wikipedia.org/wiki/Penguin_60s)
+    - [Alice for the iPad](https://apps.apple.com/us/app/alice-for-the-ipad/id354537426)
   date: 2020-08-08
-  status: pending
+  status: published
 - title: "A book a day keeps the boredom away"
   number: 1
   guests:
