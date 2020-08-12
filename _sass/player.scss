@@ -8,6 +8,13 @@
 
 .player {
 
+    .player-fallback {
+        color: $color-mid;
+        font-family: $font-sans;
+        font-size: 1rem;
+        margin-top: 2rem;
+    }
+
     .plyr--audio {
         // Align play button with text
         margin: 1rem 0 1rem -0.9rem;

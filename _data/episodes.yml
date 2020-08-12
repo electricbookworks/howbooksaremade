@@ -13,18 +13,27 @@
   date: 2020-08-08
   status: published
 - title: "A book a day keeps the boredom away"
-  number: 1
+  number: 2
   guests:
     - jess-jardimwedepohl
   description: "[Jess Jardim-Wedepohl](http://www.jessjardimwedepohl.co.za/) and I have been making books together for a few years, volunteering for children's publisher Book Dash. Jess is legendary as the only person to have illustrated and designed a Book Dash book on her own in twelve hours. She's an illustrator and designer who thinks deeply and differently."
   notes: "The show notes here will include links to sites mentioned on the show, like [Book Dash](https://bookdash.org), and to Jess's work."
   date: 2020-08-15
   status: pending
-- title: "Manage your books like a grownup"
-  number: 2
+- title: "Managing your community like a grownup"
+  number: 1
   guests:
     - sam-beckbessinger
   description: ""
-  notes: "The show notes here will include links to sites mentioned on the show."
+  notes: |
+    Sam Beckbessinger is the bestselling author of *Manage Your Money Like a F\*cking Grownup*, sold in five countries. She writes horror stories and kids' tv shows, and was one of the writers on Serial Box and Marvel’s *Jessica Jones: Playing With Fire* serialized novel. She's also written for animated kids’ TV show Team Jay and the family-friendly comedy series Jungle Beat, which has been broadcast in over 180 countries on channels including Cartoon Network and Nickelodeon. Sam was a Mandela Washington Fellow for Young African Leaders at Yale University in 2014, and is a partner and co-founder of two financial technology businesses: Lettuce and Inves. She is co-writing *Magpies* – a mystery-suspense novel about missing girls who come back, changed – together with Dale Halvorsen.
+
+    Links from the show:
+
+    - [Sam Beckbessinger's website](https://sambeckbessinger.com/)
+    - [Like a F—ing Grownup](https://www.likeafuckinggrownup.com/) (contains explicit language)
+    - [Jessica Jones on Serial Box](https://www.serialbox.com/serials/jessica-jones)
+    - [Dale Halvorsen, aka Joey Hifi](https://www.dalehalvorsen.com/)
+
   date: 2020-08-22
   status: pending

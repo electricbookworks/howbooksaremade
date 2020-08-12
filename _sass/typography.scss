@@ -149,11 +149,28 @@ form {
     padding: 0;
 
     .episode {
-
         margin-bottom: 5rem;
 
+
+        // Hide contents unless target or only episode
+        .guests,
+        .player,
+        .description,
+        .notes {
+            display: none;
+        }
+        &:target,
+        &:only-child {
+            .guests,
+            .player,
+            .description,
+            .notes {
+                display: initial;
+            }
+        }
+
         h2 {
-            margin: 0;
+            margin: 0 0 0.5rem 0;
 
             // If no guests, add margin
             & + .description {
@@ -162,7 +179,7 @@ form {
         }
 
         .guests {
-            font-style: italic;
+            font-family: $font-sans;
         }
 
         .date {

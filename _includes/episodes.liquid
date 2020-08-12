@@ -6,7 +6,7 @@ with the most recent first {% endcomment %}
 
     {% for episode in episodes %}
 
-        <li class="episode">
+        <li class="episode" id="{{ episode.title | slugify }}">
 
             <div class="date">
                 {{ episode.date | date: "%d %b %Y" }}
@@ -31,8 +31,8 @@ with the most recent first {% endcomment %}
 
             {% endif %}
 
-            {% if episode.mp3 and episode.mp3 != "" %}
-                <div class="player">
+            <div class="player">
+                {% if episode.mp3 and episode.mp3 != "" %}
                     <audio class="js-player" controls>
 
                         {% if episode.mp3 contains "http" %}
@@ -41,8 +41,12 @@ with the most recent first {% endcomment %}
                             <source src="{{ site.baseurl }}/media/{{ episode.mp3 }}" type="audio/mp3" />
                         {% endif %}
                     </audio>
-                </div>
-            {% endif %}
+                {% else %}
+                    <p class="player-fallback">
+                        Episode player coming here soon.
+                    </p>
+                {% endif %}
+            </div>
 
             <div class="description">
                 {{ episode.description | markdownify }}
