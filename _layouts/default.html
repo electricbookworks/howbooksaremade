@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ site.data.settings.title }}</title>
+
+    <!-- Styles -->
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/web.css?date={{ site.time | date: "%Y%m%d%H%M%S" }}">
 
+    <!-- Open Graph -->
     <meta property="og:title" content="{{ site.data.settings.title }}" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="{{ site.data.settings.url }}{{ page.url }}" />
@@ -14,6 +17,10 @@
     <meta property="og:description"
         content="{% if page.description and page.description != "" %}{{ page.description | markdownify | strip_html }}{% elsif page.excerpt and page.excerpt != "" %}{{ page.excerpt | markdownify | strip_html }}{% else %}{{ site.data.settings.description }}{% endif %}" />
     <meta property="og:site_name" content="{{ site.data.settings.title }}" />
+
+    <!-- RSS -->
+    <link rel="alternate" type="application/rss+xml" title="Podcast"
+          href="https://feeds.transistor.fm/how-books-are-made" />
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-27798626-7"></script>
