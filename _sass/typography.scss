@@ -160,7 +160,7 @@ form {
             display: none;
         }
         &:target,
-        &:only-child {
+        &:first-child {
             .guests,
             .player,
             .description,
