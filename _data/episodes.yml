@@ -12,14 +12,6 @@
     - [Alice for the iPad](https://apps.apple.com/us/app/alice-for-the-ipad/id354537426)
   date: 2020-08-08
   status: published
-- title: "A book a day keeps the boredom away"
-  number: 2
-  guests:
-    - jess-jardimwedepohl
-  description: "[Jess Jardim-Wedepohl](http://www.jessjardimwedepohl.co.za/) and I have been making books together for a few years, volunteering for children's publisher Book Dash. Jess is legendary as the only person to have illustrated and designed a Book Dash book on her own in twelve hours. She's an illustrator and designer who thinks deeply and differently."
-  notes: "The show notes here will include links to sites mentioned on the show, like [Book Dash](https://bookdash.org), and to Jess's work."
-  date: 2020-08-15
-  status: pending
 - title: "Marketing, collaboration, and creative freedom"
   number: 1
   mp3: "https://media.transistor.fm/66101ad1.mp3"
@@ -40,4 +32,24 @@
     - [Dale Halvorsen, aka Joey Hifi](https://www.dalehalvorsen.com/)
 
   date: 2020-08-22
+  status: published
+- title: "Children's illustration, skills and tools"
+  number: 2
+  mp3: "https://media.transistor.fm/10791f49.mp3"
+  guests:
+    - jess-jardimwedepohl
+  description: |
+    Since 2014, children's book publisher Book Dash has printed over a million free books for children, including tens of thousands illustrated by Jess Jardim-Wedepohl – which makes her one of the most widely distributed children’s book illustrators in the country. Jess makes the monumental task of illustrating an entire book in a day seem perfectly normal. In this episode, Arthur and Jess talk about Book Dash, how she approaches book design and illustration, what it’s like to work under pressure, and what she reckons are important skills for young designers and illustrators who want to make books.
+  notes: |
+    Links from the show:
+
+    - [Jess Jardim-Wedepohl's website](http://www.jessjardimwedepohl.co.za/)
+    - [Book Dash](https://bookdash.org)
+    - [Jess's books on Book Dash](https://bookdash.org/team-members/jess-jardim-wedepohl/)
+    - [Snapplify classics covers](https://www.behance.net/gallery/62149961/Snapplify-Library-Covers)
+    - [Krita](https://krita.org/) open source painting program
+    - [Gimp](https://www.gimp.org/) image editor
+    - [Procreate](https://procreate.art/) illustration app for iPad
+    - [Blender](https://www.blender.org/) 3D creation software
+  date: 2020-08-15
   status: published
