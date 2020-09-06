@@ -53,3 +53,19 @@
     - [Blender](https://www.blender.org/) 3D creation software
   date: 2020-08-15
   status: published
+- title: "The book-production process, a whirlwind tour"
+  number: 3
+  mp3: "https://media.transistor.fm/a5e3a762.mp3"
+  guests:
+    - klara-skinner
+  description: |
+    Arthur and his colleague Klara Skinner describe the entire book-making process in forty-five minutes. This is an episode especially for process junkies: a whirlwind tour through planning, commissioning, tools, writing and review, manuscript development and editing, design, permissions, typesetting, digitisation, artwork, stylesheets, software development, page refinement, proofreading, indexing, testing, deployment, publication, and those inevitable reprint corrections. Whew!
+  notes: |
+    Links from the show:
+
+    - [A visual overview of the modern production process](https://electricbookworks.com/thinking/modern-book-production-process/)
+    - [Basecamp](https://basecamp.com) for project management
+    - [Futureproofs](https://www.wearefutureproofs.com/) for collaborating on page proofs virtually
+    - [Seth Godin's blog post](https://seths.blog/2010/01/quieting-the-lizard-brain/) and [conference talk](https://www.youtube.com/watch?v=qtZfTpV4KPE) on the 'lizard brain'.
+  date: 2020-09-06
+  status: published
