@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ site.data.settings.title }}</title>
+
+    {% include metadata %}
+
+    <title>{{ page-title }}</title>
 
     <!-- Styles -->
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/web.css?date={{ site.time | date: "%Y%m%d%H%M%S" }}">
 
     <!-- Open Graph -->
-    <meta property="og:title" content="{{ site.data.settings.title }}" />
+    <meta property="og:title" content="{{ page-title }}" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="{{ site.data.settings.url }}{{ page.url }}" />
     <meta property="og:image"
-        content="{{ site.data.settings.url }}/images/{% if page.image %}{{ page.image }}{% else %}{{ site.data.settings.image }}{% endif %}?date={{ site.time | date: "%Y%m%d%H%M%S" }}" />
+        content="{{ site.data.settings.url }}/images/{% if page.image %}{{ page.image }}{% else %}{{ page-image }}{% endif %}?date={{ site.time | date: "%Y%m%d%H%M%S" }}" />
     <meta property="og:description"
-        content="{% if page.description and page.description != "" %}{{ page.description | markdownify | strip_html }}{% elsif page.excerpt and page.excerpt != "" %}{{ page.excerpt | markdownify | strip_html }}{% else %}{{ site.data.settings.description }}{% endif %}" />
+        content="{% if page.description and page.description != "" %}{{ page.description | markdownify | strip_html }}{% elsif page.excerpt and page.excerpt != "" %}{{ page.excerpt | markdownify | strip_html }}{% else %}{{ page-description }}{% endif %}" />
     <meta property="og:site_name" content="{{ site.data.settings.title }}" />
 
     <!-- RSS -->
@@ -47,8 +51,29 @@
 <body>
     <div class="wrapper">
 
-        {{ content }}
+        {% if page.type == "home" %}
 
+            {{ content }}
+
+        {% else %}
+
+            <div class="masthead">
+                <a href="{{ site.baseurl }}/">
+                    {{ site.data.settings.title }}
+                </a>
+            </div>
+
+            {% if page-type == "episode" %}
+
+                {% include episode.liquid episode=this-episode %}
+
+            {% else %}
+
+                {{ content }}
+
+            {% endif %}
+
+        {% endif %}
     </div>
 
     <div class="footer">
@@ -64,6 +89,6 @@
 
     {% comment %} https://github.com/sampotts/plyr {% endcomment %}
     <script src="https://cdn.plyr.io/3.6.2/plyr.polyfilled.js"></script>
-    <script src="bundle.js?date={{ site.time | date: "%Y%m%d%H%M%S" }}"></script>
+    <script src="{{ site.baseurl }}/bundle.js?date={{ site.time | date: "%Y%m%d%H%M%S" }}"></script>
 </body>
 </html>

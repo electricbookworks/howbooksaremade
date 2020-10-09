@@ -1,5 +1,6 @@
 ---
 title: "How Books Are Made"
+type: home
 ---
 
 # How Books Are&nbsp;Made

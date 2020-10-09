@@ -13,7 +13,7 @@ with the most recent first {% endcomment %}
             </div>
 
             <h2 id="{{ episode.title | slugify }}">
-                <a href="#{{ episode.title | slugify }}">
+                <a href="episodes/{{ episode.slug }}">
                     {{ episode.title }}
                 </a>
             </h2>
