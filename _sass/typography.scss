@@ -128,7 +128,10 @@ form {
 .masthead {
     font-family: $font-sans;
     margin: 3rem 0 0 0;
-    text-align: center;
+
+    @media only screen and (min-width: $break-width-medium) {
+        text-align: center;
+    }
 
     & + h1 {
         margin-top: 3rem;
