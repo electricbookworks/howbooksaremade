@@ -27,10 +27,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 2rem;
     margin: 2rem 0 1rem 0;
 
     @media only screen and (min-width: $break-width-small) {
+        font-size: 3rem;
         margin: 5rem 0 1rem 0;
     }
     @media only screen and (min-width: $break-width-medium) {
