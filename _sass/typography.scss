@@ -7,6 +7,7 @@ body, html {
     font-size: $font-size;
     line-height: $line-height;
     margin: auto;
+    max-width: 100%;
     overflow-x: hidden;
     padding: 0;
 }
@@ -15,10 +16,6 @@ body, html {
     margin: auto;
     max-width: $max-width;
     padding: 1rem;
-
-    // Allow stacking
-    position: relative;
-    z-index: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -131,24 +128,33 @@ form {
 
 .home {
     
-    // Large circle decor
-    &::before {
-        content: "";
-        position: absolute;
-        width: 100vh;
-        height: 100vh;
-        top: -50vh;
-        right: -50vh;
-        background-color: $color-hbam-blue;
-        border-radius: 100vh;
-        opacity: 0.3;
+    .wrapper {
+
+        // Allow stacking
+        position: relative;
         z-index: 0;
 
-        @media only screen and (min-width: $break-width-large) {
-            width: 150vh;
-            height: 150vh;
-            top: -75vh;
-            right: -75vh;
+        // Large circle decor
+        --sidebar-width: calc((100vw - 100%) / 2);
+        &::before {
+            content: "";
+            position: absolute;
+            width: 100vh;
+            height: 100vh;
+            top: -50vh;
+            left: 50%;
+            transform: translateX(var(--sidebar-width));
+            background-color: $color-hbam-blue;
+            border-radius: 100vh;
+            opacity: 0.3;
+            z-index: -1;
+    
+            @media only screen and (min-width: $break-width-large) {
+                width: 150vh;
+                height: 150vh;
+                top: -75vh;
+                // left: 75%;
+            }
         }
     }
 }
@@ -204,6 +210,7 @@ form {
     ul {
         font-family: $font-sans;
         font-size: 0.6rem;
+        letter-spacing: 0.05em;
         line-height: 2rem;
         list-style-type: none;
         margin: 0 auto;
