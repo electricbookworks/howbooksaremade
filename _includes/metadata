@@ -1,0 +1,34 @@
+{% comment %} Get the metadata for the page we're generating. {% endcomment %}
+
+{% comment %} Determine what kind of page this is. {% endcomment %}
+{% capture page-basename %}{{page.name | remove: ".md"}}{% endcapture %}
+{% assign page-type = "" %}
+{% if page.path contains "episodes/" %}
+    {% assign page-type = "episode" %}
+{% endif %}
+
+
+{% comment %} If this is an episode page, get the relevant episode data. {% endcomment %}
+{% if page-type == "episode" %}
+    {% for episode in site.data.episodes %}
+        {% if episode.slug == page-basename %}
+            {% assign this-episode = episode %}
+        {% endif %}
+    {% endfor %}
+{% endif %}
+
+
+{% comment %} Define the page data. {% endcomment %}
+{% if page-type == "episode" %}
+
+    {% assign page-title = this-episode.title %}
+    {% assign page-image = this-episode.image %}
+    {% assign page-description = this-episode.description %}
+    
+{% else %}
+
+    {% assign page-title = site.data.settings.title %}
+    {% assign page-image = site.data.settings.image %}
+    {% assign page-description = site.data.settings.description %}
+
+{% endif %}

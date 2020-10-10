@@ -20,11 +20,16 @@ $break-width-medium: 60rem;
 $break-width-large: 75rem;
 
 // Colours
+$color-hbam-blue: #cfedfc;
+$color-hbam-red: #ef5c65;
+$color-hbam-yellow: #fedc2f;
+
 $color-text-main: #262626;
 $color-background: #f9f9f9;
 $color-mid: #aaa;
-$color-links: #4169E1;
+$color-links: darken($color-hbam-blue, 40%); // #4169E1
 $color-code-background: #EEEEEE;
+
 
 // Import fonts
 

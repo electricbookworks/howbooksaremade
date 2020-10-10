@@ -1,0 +1,33 @@
+{% assign episode = include.episode %}
+
+
+<h1>{{ episode.title }}</h1>
+
+<div class="tagline">
+    {{ episode.description | markdownify }}
+</div>
+
+{% include follow.html %}
+
+<div class="player">
+    {% if episode.mp3 and episode.mp3 != "" %}
+    <audio class="js-player" controls>
+
+        {% if episode.mp3 contains "http" %}
+        <source src="{{ episode.mp3 }}" type="audio/mp3" />
+        {% else %}
+        <source src="{{ site.baseurl }}/media/{{ episode.mp3 }}" type="audio/mp3" />
+        {% endif %}
+
+    </audio>
+
+    {% else %}
+
+    <p class="player-fallback">
+        Episode player coming here soon.
+    </p>
+
+    {% endif %}
+</div>
+
+{{ episode.notes | markdownify }}
