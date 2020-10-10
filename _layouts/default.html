@@ -48,32 +48,29 @@
     </script>
 
 </head>
-<body>
+<body class="{{ page.style }}">
     <div class="wrapper">
 
-        {% if page.type == "home" %}
+        <div class="masthead">
 
-            {{ content }}
+            <a href="{{ site.baseurl }}/">
+                {% if page.style == "home" %}
+                    {% include image file="book-box.png" alt=site.data.settings.title %}
+                {% else %}
+                    {% include image file="hbam.svg" alt=site.data.settings.title %}
+                {% endif %}
+            </a>
 
-        {% else %}
+        </div>
 
-            <div class="masthead">
-                <a href="{{ site.baseurl }}/">
-                    {{ site.data.settings.title }}
-                </a>
-            </div>
-
-            {% if page-type == "episode" %}
-
-                {% include episode.liquid episode=this-episode %}
-
-            {% else %}
-
-                {{ content }}
-
-            {% endif %}
-
+        {% if page-type == "episode" %}
+    
+            {% include episode.liquid episode=this-episode %}
+    
         {% endif %}
+ 
+        {{ content }}
+
     </div>
 
     <div class="footer">

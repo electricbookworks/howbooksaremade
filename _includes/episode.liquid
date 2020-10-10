@@ -7,6 +7,8 @@
     {{ episode.description | markdownify }}
 </div>
 
+{% include follow.html %}
+
 <div class="player">
     {% if episode.mp3 and episode.mp3 != "" %}
     <audio class="js-player" controls>
