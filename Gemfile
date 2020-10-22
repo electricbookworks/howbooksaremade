@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 # If you must ensure the same behaviour as GitHub pages,
 # change this to match what it supports: https://pages.github.com/versions/
 gem 'jekyll', '~>4.0.1'
-gem 'kramdown', '~> 2.1'
+gem 'kramdown', '~> 2.3'
 
 # GitHub Pages recommends using the github-pages gem instead,
 # but this injects unwanted files: https://github.com/github/pages-gem/issues/482
