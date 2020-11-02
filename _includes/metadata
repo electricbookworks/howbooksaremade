@@ -21,9 +21,23 @@
 {% comment %} Define the page data. {% endcomment %}
 {% if page-type == "episode" %}
 
-    {% assign page-title = this-episode.title %}
-    {% assign page-image = this-episode.image %}
-    {% assign page-description = this-episode.description %}
+    {% if this-episode.title %}
+        {% assign page-title = this-episode.title %}
+    {% else %}
+        {% assign page-title = site.data.settings.title %}
+    {% endif %}
+
+    {% if this-episode.description %}
+        {% assign page-description = this-episode.description %}
+    {% else %}
+        {% assign page-description = site.data.settings.description %}
+    {% endif %}
+
+    {% if this-episode.image and this-episode.image != "" %}
+        {% assign page-image = this-episode.image %}
+    {% else %}
+        {% assign page-image = site.data.settings.image %}
+    {% endif %}
     
 {% else %}
 
