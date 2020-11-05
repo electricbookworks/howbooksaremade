@@ -253,7 +253,7 @@ Thank you so much. I have learned a lot. That's been absolutely fascinating.
 Ah, brilliant. It was a really fun chat. Thank you.
 
 **Arthur Attwell**  41:34  
-Thank you for spending your time with us. You can be part of the show if you send us your own bookmaking, stories, topics and conundrums. And you can do that at howbooksaremade.com. 
+Thank you for spending your time with us. You can be part of the show if you send us your own bookmaking, stories, topics and conundrums. And you can do that at [howbooksaremade.com](https://howbooksaremade.com). 
 
 **Arthur Attwell**  41:45  
 If you haven't already, please subscribe in your podcast player and leave a review that really helps others find out about the show. How Books Are Made is supported by Electric Book Works. My team and I make books all day, every day in sunny Cape Town, South Africa.

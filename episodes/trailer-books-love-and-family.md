@@ -27,6 +27,6 @@ Making books, and making books possible, is not a way to get rich. It is a way t
 
 Perhaps the biggest reason I keep making books is that the people are lovely, and on this podcast I’m going to speak to them to find out how they make books, and make books possible. I’m going to revel in my favourite details of paper stock and ligatures, e-ink and web servers. Maybe I’ll finally learn how the heck to market books, which is something I’ve never mastered.
 
-Thanks for spending your time with me. I do hope you subscribe, so that you can join us. You can be a part of the show if you send us your own book-making stories, topics and conundrums, and you can do that at [howbooksaremade.com](httos://howbooksaremade.com).
+Thanks for spending your time with me. I do hope you subscribe, so that you can join us. You can be a part of the show if you send us your own book-making stories, topics and conundrums, and you can do that at [howbooksaremade.com](https://howbooksaremade.com).
 
 How Books Are Made is supported by Electric Book Works, where my team and I make books all day, every day, in sunny Cape Town, South Africa.
