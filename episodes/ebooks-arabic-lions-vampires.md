@@ -187,8 +187,8 @@ Ramy, thank you so much. This has been so much fun. I've loved hearing those sto
 Thank you very much. Thank you. 
 
 **Arthur Attwell**  35:11  
-Thank you for listening. Please make sure you subscribe, and it would be such a help if you tell a friend about the show. Also, don't forget to send us your own book making topics and conundrums at howbooksaremade.com, where I'll also post links to things we talked about today. 
+Thank you for listening. Please make sure you subscribe, and it would be such a help if you tell a friend about the show. Also, don't forget to send us your own book-making topics and conundrums at [howbooksaremade.com](https://howbooksaremade.com), where I'll also post links to things we talked about today. 
 
 **Arthur Attwell**  35:28  
-How Books Are Made is supported by Electric Book Works, where my team and I make books all day every day in mostly-sunny Cape Town, South Africa.
+How Books Are Made is supported by Electric Book Works, where my team and I make books all day, every day in mostly-sunny Cape Town, South Africa.
 
