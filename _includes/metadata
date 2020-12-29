@@ -4,7 +4,9 @@
 {% capture page-basename %}{{page.name | remove: ".md"}}{% endcapture %}
 {% assign page-type = "" %}
 {% if page.path contains "episodes/" %}
-    {% assign page-type = "episode" %}
+    {% unless page.path contains "episodes/index.md" %}
+        {% assign page-type = "episode" %}
+    {% endunless %}
 {% endif %}
 
 

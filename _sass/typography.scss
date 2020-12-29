@@ -305,6 +305,19 @@ form {
     }
 }
 
+.timestamp {
+    color: $color-mid;
+    display: block;
+    font-family: $fonts-small-caps;
+    letter-spacing: 0.05em;
+    margin-top: 2em;
+    text-transform: lowercase;
+
+    strong {
+        font-weight: normal;
+    }
+}
+
 .footer {
     border-top: $rule-thickness solid $color-text-main;
     font-size: 0.9rem;
