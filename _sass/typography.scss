@@ -277,8 +277,13 @@ form {
             }
         }
 
-        .guests {
-            font-family: $font-sans;
+        .description {
+
+            p {
+                font-size: 1.3rem;
+                font-style: italic;
+                margin-bottom: 2rem;
+            }
         }
 
         .date {
@@ -289,6 +294,10 @@ form {
             letter-spacing: 0.05rem;
             margin-bottom: 1rem;
             text-transform: lowercase;
+        }
+
+        .guests {
+            font-family: $font-sans;
         }
 
         .number {
