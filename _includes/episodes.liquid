@@ -9,7 +9,7 @@ with the most recent first {% endcomment %}
         <li class="episode" id="{{ episode.title | slugify }}">
 
             <div class="date">
-                {{ episode.date | date: "%d %b %Y" }}
+                {{ episode.date | date: "%-d %b %Y" }}
             </div>
 
             <h2 id="{{ episode.title | slugify }}">
