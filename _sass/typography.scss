@@ -49,7 +49,7 @@ h1 {
 }
 
 h2 {
-    margin-top: 4rem;
+    margin-top: 5rem;
 }
 
 p {
@@ -305,16 +305,48 @@ form {
     }
 }
 
-.timestamp {
+.footnotes {
+
+    color: $color-mid;
+    font-family: $font-sans;
+    font-size: 0.8rem;
+    margin-top: 2rem;
+
+    .date {
+        display: inline-block;
+        margin-bottom: 0.5em;
+
+        @media only screen and (min-width: $break-width-small) {
+            margin-bottom: 0;
+        }
+    }
+
+    &:before {
+        border-top: ($rule-thickness * 2) solid $color-hbam-blue;
+        content: "";
+        display: block;
+        margin-bottom: 1rem;
+        margin-top: 2rem;
+        width: 5rem;
+    }
+}
+
+.name-and-timestamp {
     color: $color-mid;
     display: block;
-    font-family: $fonts-small-caps;
-    letter-spacing: 0.05em;
-    margin-top: 2em;
-    text-transform: lowercase;
+    font-family: $font-sans;
+    font-size: 0.7rem;
+    letter-spacing: 0.1em;
+    margin-bottom: 0.5em;
+    margin-top: 2.5em;
+    text-transform: uppercase;
 
     strong {
         font-weight: normal;
+    }
+
+    .timestamp {
+        float: right;
     }
 }
 
