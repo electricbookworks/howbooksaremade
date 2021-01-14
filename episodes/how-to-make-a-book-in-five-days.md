@@ -196,4 +196,4 @@ Thank you so much, Arthur. It's been a pleasure.
 Thank you for listening. If you enjoyed this, it'd be such a help if you'd take a moment to share that with a friend or on social media. You'd be amazed at the effect that every share has on our downloads. So thanks for that, too. You can point people to [howbooksaremade.com](https://howbooksaremade.com) where I'll also post links to things we talked about today. We'll also add a transcript of this conversation there. 
 
 **Arthur Attwell**  32:06  
-How Books Are Made is supported by Electric Book Works, where my team and I make books all day every day in sunny Cape Town, South Africa.
+How Books Are Made is supported by Electric Book Works, where my team and I make books all day, every day, in sunny Cape Town, South Africa.
