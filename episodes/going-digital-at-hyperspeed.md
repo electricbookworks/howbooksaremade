@@ -37,7 +37,7 @@ Yeah.
 Although that's still doubtless an important part. Because EBC's history goes back to the 1940s, am I right? I'm guessing here from a magazine article that I found that it started with your grandfather and his brothers selling law books in Lucknow, have I got that right? 
 
 **Raghunandan Malik**  3:22  
-Yes. Yes. Yes, that is a very, very long time, indeed, ago that the company was started. It was started actually in 1942. Actually, my grandfather moved from Chiang in Punjab, which is now part of Pakistan, and he came without a penny in his pocket to India. Today, Eastern Book Company has become the largest legal publisher and information provider in South Asia. It's been a major, major change. I guess he came at a time when India had just become or was about to become a republic. We just got independence in 1947, and we kind of wanted to contribute to the building up of the country. He thought the one of the best ways of doing that was to contribute to the Indian legal system with quality legal information.
+Yes. Yes. Yes, that is a very, very long time, indeed, ago that the company was started. It was started actually in 1942. Actually, my grandfather moved from Chiang in Punjab, which is now part of Pakistan, and he came without a penny in his pocket to India. Today, Eastern Book Company has become the largest legal publisher and information provider in South Asia. It's been a major, major change. I guess he came at a time when India had just become or was about to become a republic. We just got independence in 1947, and we kind of wanted to contribute to the building up of the country. He thought that one of the best ways of doing that was to contribute to the Indian legal system with quality legal information.
 
 **Arthur Attwell**  4:18  
 Right. Yeah. Because I suppose India was booming, and, of course, a long legal tradition, but was probably at a moment where it was also reinventing a lot about itself. I suppose legal publishing was, was a critical part of that.
@@ -94,7 +94,7 @@ I agree. I agree. That yes, it is a whole other world, and … I think a part of
 Yeah. 
 
 **Raghunandan Malik**  9:41  
-Plus, I think that also gives … I don't know if you've ever seen this, that among coders, there's this strong sense of a meritocratic community. They strongly believe, or they will only go to people who at least understand. Who they look as one of their own. As somebody who they can look up to. So if you are to actually lead a technology company, or at least an information technology in our case, then you will need to understand the technological problem that they may potentially face, and it's great for them to have somebody who they can look up to.
+Plus, I think that also gives … I don't know if you've ever seen this, that among coders, there's this strong sense of a meritocratic community. They strongly believe, or they will only go to people who at least understand. Who they look to as one of their own. As somebody who they can look up to. So if you are to actually lead a technology company, or at least an information technology in our case, then you will need to understand the technological problem that they may potentially face, and it's great for them to have somebody who they can look up to.
 
 **Arthur Attwell**  10:16  
 Sure. It makes an immense difference.
@@ -103,7 +103,7 @@ Sure. It makes an immense difference.
 Yeah, it does. It does. I and I think the only thing is, I feel that maybe I'm too involved with the technology itself. You tend to go in that direction. Which you have to restrict yourself, I guess after a bit. Once you have a team in place, yeah.
 
 **Arthur Attwell**  10:40  
-Yeah. Absolutey. And then pay good people that are, I suppose, better at it than you and trust that you hiring people who are better at it than you?
+Yeah. Absolutely. And then pay good people that are, I suppose, better at it than you and trust that you're hiring people who are better at it than you?
 
 **Raghunandan Malik**  10:48  
 Absolutely, absolutely. That is the only way to grow. That is the only way to grow. But you do get a feel for the right person also, when you code yourself, you understand, which are concepts and what are you looking for in those people? When you do the recruitment. If you understand coding yourself, and you really know how to do that work. I think that allows an organisation to grow.
