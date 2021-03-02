@@ -13,7 +13,7 @@ My first full-time publishing job was for Oxford University Press. On my first d
 Two decades later, I've come to understand that what matters is that every book has a purpose, and that that purpose informs the way you should make it, the way you should judge it's success, and that the more diverse your book-making experience, the broader your toolset becomes, both for making the right books and for knowing what matters most about them. If all that sounds a bit vague, my guest today will make it a whole lot clearer. 
 
 **Arthur Attwell**  1:43  
-Alisha Niehaus Berger is one of my favorite book-makers. She leads publishing for one of the world's largest literacy nonprofits, Room to Read. Before that, she had my dream jobs at Penguin and Dorling Kindersley, publishing some of the most acclaimed children's books in the world. She brings so much joy and energy into a room that books practically sprout from the tables. As you can tell, I'm excited to share this conversation with you. Alisha, it is so lovely to talk to you and to catch up again. It's been quite a year and I'm really so pleased that you could take some time to talk with me today. Thanks so much.
+Alisha Niehaus Berger is one of my favourite book-makers. She leads publishing for one of the world's largest literacy nonprofits, Room to Read. Before that, she had my dream jobs at Penguin and Dorling Kindersley, publishing some of the most acclaimed children's books in the world. She brings so much joy and energy into a room that books practically sprout from the tables. As you can tell, I'm excited to share this conversation with you. Alisha, it is so lovely to talk to you and to catch up again. It's been quite a year and I'm really so pleased that you could take some time to talk with me today. Thanks so much.
 
 **Alisha Niehaus Berger**  2:27  
 Oh, you're so welcome. I'm so honoured that you asked me.
@@ -40,10 +40,10 @@ That was such a wonderful book, and the experience was, was fantastic. Basically
 I actually got *Savvy* from an agent, someone that I knew called me and said, I have this book, and it's set in sort of a magical United States and, you know, the kids all have what's called a savvy, it's a power, they get on their 13th birthday. And, you know, kind of went on and I, I just loved it. Like he sent it to me, I think, I don't know, five o'clock or something by email, and I stayed up all night to read it and sent him a note at two in the morning and said, I love this book, I want to work on it. It turned out that by the following morning, everyone else had read it as well and also wanted it but I think my midnight enthusiasm really, really helped with that, of course, and the massive advanced that Ingrid got for this book. [LAUGHS]
 
 **Arthur Attwell**  4:53  
-Good. That's fantastic. Do you have a favorite project from your New York publishing days?
+Good. That's fantastic. Do you have a favourite project from your New York publishing days?
 
 **Alisha Niehaus Berger**  5:00  
-It's like asking a parent to pick their favorite child. 
+It's like asking a parent to pick their favourite child. 
 
 **Arthur Attwell**  5:02  
 Yeah.
@@ -76,7 +76,7 @@ Totally.
 I imagine there many wonderful things about working in that part of the publishing world, and I suspect, like with all jobs, there are some downsides. For those of us thinking that those are publishing dream jobs, in what ways are we right? And in what ways are those not quite the dream jobs that we think they are?
 
 **Alisha Niehaus Berger**  8:35  
-Oh, books all day. That's the first part that makes it wonderful. If you're, you know, if you grew up as a, as a bookish child, as I myself did, and I think a lot of people who go into books have that background, you're working on the things that you see at the libraries and bookstores that you loved as a child. For me, going into my very favorite bookstore, where I grew up in California, and seeing a book that I had worked on, or having the children's book person who had really helped me kind of curate my reading growing up have books that I worked on, was just beyond magical. 
+Oh, books all day. That's the first part that makes it wonderful. If you're, you know, if you grew up as a, as a bookish child, as I myself did, and I think a lot of people who go into books have that background, you're working on the things that you see at the libraries and bookstores that you loved as a child. For me, going into my very favourite bookstore, where I grew up in California, and seeing a book that I had worked on, or having the children's book person who had really helped me kind of curate my reading growing up have books that I worked on, was just beyond magical. 
 
 **Arthur Attwell**  9:11  
 Amazing. 
@@ -256,7 +256,7 @@ Wonderful.
 Places in South Africa next year. Yeah.
 
 **Arthur Attwell**  29:25  
-Fantastic. Yeah, definitely be getting those and I'll put the link to those specifically also in the show notes, because they are really, really worth visiting. Just before we wrap up, you're a parent of young children. So you have like me the best reason to collect and read lots of gorgeous children's books. As a as a book-maker, who knows what goes into making these things, what have been your favorite discoveries recently? What are the books we should also look out for?
+Fantastic. Yeah, definitely be getting those and I'll put the link to those specifically also in the show notes, because they are really, really worth visiting. Just before we wrap up, you're a parent of young children. So you have like me the best reason to collect and read lots of gorgeous children's books. As a as a book-maker, who knows what goes into making these things, what have been your favourite discoveries recently? What are the books we should also look out for?
 
 **Alisha Niehaus Berger**  29:55  
 Yeah, you know, this is always such a hard question. You know, books are just falling out of everywhere in my house. I mean, it's, it's a little bit insane. You know, the books from the, I have a crate that's just books from the library because I can't keep track of like the 30 books in the library that I have at a time. And then, you know, all the ones that I haven't ever, I get books from this wonderful place called Better World Books, and you can get those books from anywhere. They ship them, you know, used books around the world and I, I get a book like every day in the mail, my husband's like, really, here's your book from today, do you need this one?
