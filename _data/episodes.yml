@@ -260,3 +260,26 @@
     - [*Pete the Cat*](https://www.petethecatbooks.com/9780061906220/pete-the-cat-i-love-my-white-shoes/)
   date: 2021-02-16
   status: published
+- title: "Creative publishing with smart tools"
+  slug: creative-publishing-with-smart-tools
+  number: 13
+  mp3: "https://media.transistor.fm/b0f7d394/5fe432e4.mp3"
+  guests:
+    - nick-barreto
+  description: |
+    When we create machines to handle the drudgery of book-making, we free up our brains for more creative work.
+  notes: |
+    Fiction publisher Canelo has just been shortlisted for Independent Publisher of the Year at the British Book Awards. They have a small, thriving team and sell millions of copies a year. They have repeatedly shown that sensible innovations in how you commission, make, and market books, and how you pay authors, can completely change the publishing game. Nick Barreto is Canelo's chief technology officer, and a self-taught book-making automator. In this episode, we hear how he built Canelo’s hyper-efficient workflow, and what it has helped them achieve.
+
+    Links from the show:
+
+    - [Nick on LinkedIn](https://www.linkedin.com/in/nick-barreto/)
+    - [Nick on Twitter](https://twitter.com/nickbarreto)
+    - [Canelo](https://www.canelo.co/)
+    - [Snow Books](https://www.snowbooks.com/)
+    - [Consonance](https://www.consonance.app/)
+    - [Pandoc](https://pandoc.org/)
+    - [Atavist](https://atavist.com/)
+    - [LaTeX](https://www.latex-project.org/)
+  date: 2021-03-21
+  status: published

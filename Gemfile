@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 # This Jekyll version may not be what GitHub Pages supports.
 # If you must ensure the same behaviour as GitHub pages,
 # change this to match what it supports: https://pages.github.com/versions/
-gem 'jekyll', '~>4.0.1'
+gem 'jekyll', '~>4.2.0'
 gem 'kramdown', '~> 2.3'
 
 # GitHub Pages recommends using the github-pages gem instead,
