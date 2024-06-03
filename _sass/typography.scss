@@ -131,7 +131,7 @@ form {
 // Features
 
 .home {
-    
+
     .wrapper {
 
         // Allow stacking
@@ -152,7 +152,7 @@ form {
             border-radius: 100vh;
             opacity: 0.3;
             z-index: -1;
-    
+
             @media only screen and (min-width: $break-width-large) {
                 width: 150vh;
                 height: 150vh;
@@ -163,7 +163,7 @@ form {
 }
 
 .contact {
-    
+
     h1 + p {
         margin-top: 3rem;
     }
@@ -227,7 +227,7 @@ form {
 
         li {
             margin-right: 0.5rem;
-            
+
             a {
                 border: $rule-thickness solid $color-hbam-blue;
                 border-radius: $border-radius;
@@ -331,21 +331,36 @@ form {
     }
 }
 
-.name-and-timestamp {
+@mixin transcriptLabel () {
     color: $color-mid;
-    display: block;
+    display: inline-block;
     font-family: $font-sans;
     font-size: 0.7rem;
+    font-style: normal;
     letter-spacing: 0.1em;
-    margin-bottom: 0.5em;
-    margin-top: 2.5em;
     text-transform: uppercase;
 
     strong {
         font-weight: normal;
     }
+}
 
-    .timestamp {
+.name-and-timestamp {
+    @include transcriptLabel();
+
+    display: block;
+    margin-bottom: 0.5em;
+    margin-top: 2.5em;
+
+    cite {
+        @include transcriptLabel();
+
+        .cite-colon {
+            color: transparent;
+        }
+    }
+    .timestamp, time {
+        @include transcriptLabel();
         float: right;
     }
 }
