@@ -1,3 +1,5 @@
+/* global smartquotes */
+
 // Format transcript name headings and timestamps nicely.
 // This function handles legacy formatting for original episodes.
 function formatOldTranscriptHeads () {
@@ -57,6 +59,17 @@ function formatTranscriptLabels () {
   }
 }
 
+// Use vendor script to replace straight quotes with smart ones
+
+function useSmartQuotes () {
+  'use strict'
+
+  if (document.body.getAttribute('data-episode', 'true')) {
+    smartquotes()
+  }
+}
+
 // Go
 formatOldTranscriptHeads()
 formatTranscriptLabels()
+useSmartQuotes()
