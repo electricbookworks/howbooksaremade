@@ -60,7 +60,7 @@ function formatTranscriptLabels () {
 }
 
 // Use vendor script to replace straight quotes with smart ones
-
+// https://github.com/kellym/smartquotes.js used in _includes
 function useSmartQuotes () {
   'use strict'
 
