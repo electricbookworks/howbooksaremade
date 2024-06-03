@@ -33,6 +33,14 @@
 {{ episode.notes | markdownify }}
 
 <div class="footnotes">
+    {% if episode.credits and episode.credits != "" %}
+        <dl class="credits">
+            {% for credit in episode.credits %}
+                <dt>{{ credit.role }}</dt>
+                <dd>{{ site.data.people[credit.person].name }}</dd>
+            {% endfor %}
+        </dl>
+    {% endif %}
     <div class="date">This episode was published on <span class="date">{{ episode.date | date: "%-d %B %Y" }}</span>.</div>
     <div class="credit">Supported by <a href="https://electricbookworks.com">Electric Book Works</a>: publishing reinvented for the digital age.</div>
 </div>

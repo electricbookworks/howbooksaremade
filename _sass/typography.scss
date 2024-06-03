@@ -329,6 +329,12 @@ form {
         margin-top: 2rem;
         width: 5rem;
     }
+
+    .credits {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        margin-bottom: 0.5rem;
+    }
 }
 
 @mixin transcriptLabel () {
