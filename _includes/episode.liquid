@@ -4,7 +4,7 @@
 <h1>{{ episode.title }}</h1>
 
 <div class="tagline">
-    {{ episode.description | markdownify }}
+    {{ episode.subheadline | markdownify }}
 </div>
 
 {% include follow.html %}
@@ -30,7 +30,7 @@
     {% endif %}
 </div>
 
-{{ episode.notes | markdownify }}
+{{ episode.description | markdownify }}
 
 <div class="footnotes">
     {% if episode.credits and episode.credits != "" %}
