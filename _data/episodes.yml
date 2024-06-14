@@ -2,8 +2,8 @@
   slug: trailer-books-love-and-family
   number: 0
   mp3: "https://media.transistor.fm/6f4d05a5.mp3"
-  description: "How Books Are Made is a podcast about the art and science of making books. It's for book lovers who believe that details matter, on paper and on screen: from the feel of the paper to the shapes of the ligatures, from hyperlinks to accessibility."
-  notes: |
+  subheadline: "How Books Are Made is a podcast about the art and science of making books. It's for book lovers who believe that details matter, on paper and on screen: from the feel of the paper to the shapes of the ligatures, from hyperlinks to accessibility."
+  description: |
     In this short trailer, Arthur Attwell describes some of his favourite books, not for their content but for the way they have been physically made: an enormous production from 1902, a marketing marvel, a Wonderland ebook, and the book that nearly injured his mother to get him married.
 
     If you want more intriguing book-making nerdery, subscribe in your podcast player to get the next episode, and see what you think.
@@ -21,10 +21,10 @@
   mp3: "https://media.transistor.fm/66101ad1.mp3"
   guests:
     - sam-beckbessinger
-  description: |
+  subheadline: |
     People who can build book brands and inspire fans are rare and amazing, even more so when they write their books, too. One of those people is Sam Beckbessinger, the bestselling author of *Manage Your Money Like a F—ing Grownup*, which is a book, a website, and a growing brand in several countries.
 
-  notes: |
+  description: |
     She also writes for hugely popular kids' TV shows, and was one of the writers on Serial Box and Marvel’s serialized novel *Jessica Jones: Playing With Fire*. She is irrepressibly joyful and optimistic, which is something we all need a dose of right now.
 
     Links from the show:
@@ -45,9 +45,9 @@
   mp3: "https://media.transistor.fm/bc91c0ce.mp3"
   guests:
     - jess-jardimwedepohl
-  description: |
+  subheadline: |
     Since 2014, children's book publisher Book Dash has printed over a million free books for children, including tens of thousands illustrated by Jess Jardim-Wedepohl – which makes her one of the most widely distributed children’s book illustrators in the country.
-  notes: |
+  description: |
     Jess makes the monumental task of illustrating an entire book in a day seem perfectly normal. In this episode, Arthur and Jess talk about Book Dash, how she approaches book design and illustration, what it’s like to work under pressure, and what she reckons are important skills for young designers and illustrators who want to make books.
 
     Links from the show:
@@ -68,9 +68,9 @@
   mp3: "https://media.transistor.fm/a5e3a762.mp3"
   guests:
     - klara-skinner
-  description: |
+  subheadline: |
     Arthur and his colleague Klara Skinner describe the entire book-making process in forty-five minutes.
-  notes: |
+  description: |
     This is an episode especially for process junkies: a whirlwind tour through planning, commissioning, tools, writing and review, manuscript development and editing, design, permissions, typesetting, digitisation, artwork, stylesheets, software development, page refinement, proofreading, indexing, testing, deployment, publication, and those inevitable reprint corrections. Whew!
 
     Links from the show:
@@ -87,9 +87,9 @@
   mp3: "https://media.transistor.fm/35ff3263.mp3"
   guests:
     - john-pettigrew
-  description: |
+  subheadline: |
     Books are enormously complex creations, and clearing them of errors takes the immense, repeated effort of editors and proofreaders. Proofreaders are unsung heroes, who often work best with pencil and coloured pens, and a stack of publishing reference books. Today, they’re often asked to mark up corrections on screen in PDF – but is that really best?
-  notes: |
+  description: |
     In this episode, Arthur talks about that with editor and entrepreneur John Pettigrew, the founder of Futureproofs. How can we innovate in this part of the publishing process? And what lessons can we learn here about innovation in publishing more broadly?
 
     Links from the show:
@@ -108,9 +108,9 @@
   mp3: "https://media.transistor.fm/e32b3044.mp3"
   guests:
     - jeremy-boraine
-  description: |
+  subheadline: |
     For many of us, the role of ‘The Publisher’ is almost mythical: a distant, unknowable keeper of dreams. Somehow, we grant publishers enormous cultural cachet, but they are just people, and hopefully conversations like this one can help us better understand the kinds of decisions and trade-offs they make.
-  notes: |
+  description: |
     In this episode, Arthur talks to Jeremy Boraine, the publishing director at Jonathan Ball Publishers, one of South Africa’s biggest publishers of general-interest books, and now parent company to Icon Books in London. They talk about what it’s like to be a publisher, balancing predictable bestsellers with new voices, about audiobooks, and about acquiring Icon. They also reflect on the challenge of diversity in publishing, and the recent fallout over an unauthorised biography of Siya Kolisi.
 
     Links from the show:
@@ -126,9 +126,9 @@
   mp3: "https://media.transistor.fm/adba13b7.mp3"
   guests:
     - ramy-habeeb
-  description: |
+  subheadline: |
     Arthur meets up with an old friend, Ramy Habeeb, to share some fascinating, hilarious book-making stories. And he discovers that his friend has a whole other life, and pseudonym, as a successful novelist.
-  notes: |
+  description: |
     Ramy's ventures are a great example of how invention flourishes at the intersections of language, culture, and disciplines. Born in Egypt, he grew up in Bahrain and Canada, taught in Japan, and has worked in Egypt, England and Scotland, collecting accolades along the way. He is the founder of Kotobarabia, the first Arabic-language ebook publishing company in the Middle East.
 
     Links from the show:
@@ -144,9 +144,9 @@
   mp3: "https://media.transistor.fm/a9fe34cc/88afa92d.mp3"
   guests:
     - andrew-rhomberg
-  description: |
+  subheadline: |
     Arthur speaks to Andrew Rhomberg, the founder of Jellybooks, about how publishers use smart ebooks to measure what readers think of a new publication, and to figure out whether it could be a bestseller.
-  notes: |
+  description: |
     It is one of the marvellously crazy things about publishing that most books are published long before you have any idea whether they’ll be popular. Publishers will spend small fortunes on advances, editing, design, digitization, printing, and marketing before knowing whether a book will sell more than a few hundred copies. Perhaps early reader data can help solve that problem – something Andrew and his team have been working on for ten years.
 
     Andrew has a broad, global perspective, coming to publishing from chemistry, telecoms, and music, and having lived and worked in Denmark, Austria, Italy, the USA, the Netherlands, Russia, and the UK.
@@ -163,9 +163,9 @@
   mp3: "https://media.transistor.fm/6389ea13/036e1efb.mp3"
   guests:
     - mike-jason
-  description: |
+  subheadline: |
     Even in our digital world, despite the insight of editors and the wonders of design, printing is really where the book-making magic culminates. In this episode, Arthur speaks to Mike Jason, a long-time book-printing expert.
-  notes: |
+  description: |
     Mike Jason is the director of Academic Press, which prints books for educational publishers across southern Africa.
 
     He takes us through the book-printing process, and discusses the differences between offset and digital printing, where book paper comes from, and the economics of book printing. And he and Arthur revisit a magnificent art-book project from twenty years ago.
@@ -177,9 +177,9 @@
   mp3: "https://media.transistor.fm/e7ce5163/20f3571b.mp3"
   guests:
     - guy-lecharles-gonzalez
-  description: |
+  subheadline: |
     We all love libraries, but maybe we could love them a little more. Some money-minded publishing folk even wonder: what effect do libraries have on book sales? Luckily, Guy LeCharles Gonzalez can help answer that question, and many others.
-  notes: |
+  description: |
     Guy is Chief Content Officer at LibraryPass, and till recently ran the Panorama Project, which measures the impact that public libraries have on reading and on book sales. Before that, he worked in a range of senior publishing and marketing roles, and ran a wonderful book-making conference called Digital Book World. He has a sharp eye for lazy thinking, and that rare ability to grasp both the big picture and the tiny details that make it up.
 
     Links from the show:
@@ -200,9 +200,9 @@
   mp3: "https://media.transistor.fm/69c449ef/302362dc.mp3"
   guests:
     - barbara-ruhling
-  description: |
+  subheadline: |
     When we really need to get a book written and published quickly, and can rally a dedicated team around it, how fast can we move?
-  notes: |
+  description: |
     Book Sprints are the leaders in rapid book production. Their CEO and Lead Facilitator, Barbara Rühling, regularly leads her clients’ teams from zero to book in just five days. Arthur and Barbara talk about how she and her team work, and what other book-makers can learn from it.
 
     Links from the show:
@@ -220,9 +220,9 @@
   mp3: "https://media.transistor.fm/89710edf/8ce557f0.mp3"
   guests:
     - raghunandan-malik
-  description: |
+  subheadline: |
     The pandemic has accelerated digitization in publishing to warp speed, and every book-maker in the world is wondering what that means for their business.
-  notes: |
+  description: |
     Some innovative publishers were going digital long ago, of course. Even three-generation family businesses like EBC (formerly the Eastern Book Company). As we hear in this episode with its director Raghunandan Malik, they’ve stayed ahead of the curve because they prioritise constant learning and an entrepreneurial mindset, and also because they’ve long known that ‘books’ are not the reason they exist. Rather, they provide information, and books are one smart way to do that.
 
     Links from the show:
@@ -239,9 +239,9 @@
   mp3: "https://media.transistor.fm/63bba5e9/e0f108e0.mp3"
   guests:
     - alisha-niehaus-berger
-  description: |
+  subheadline: |
     Few people have helped to publish as many children’s books, in as many different ways, as Alisha Niehaus Berger.
-  notes: |
+  description: |
     Her career has spanned New York publishing, the Girl Scouts of America, and publishing programmes in over a dozen countries. As we find out in this conversation, she’s seen that there are many, many ways to make a children’s book. And many ways to define 'quality'. What matters most is that each book has a purpose; and that, as book-makers, our jobs get richer and more rewarding when we know and love what our books will do in the world.
 
     Links from the show:
@@ -266,9 +266,9 @@
   mp3: "https://media.transistor.fm/b0f7d394/5fe432e4.mp3"
   guests:
     - nick-barreto
-  description: |
+  subheadline: |
     When we create machines to handle the drudgery of book-making, we free up our brains for more creative work.
-  notes: |
+  description: |
     Fiction publisher Canelo has just been shortlisted for Independent Publisher of the Year at the British Book Awards. They have a small, thriving team and sell millions of copies a year. They have repeatedly shown that sensible innovations in how you commission, make, and market books, and how you pay authors, can completely change the publishing game. Nick Barreto is Canelo's co-founder and Operations Director, and a self-taught book-making automator. In this episode, we hear how he built Canelo’s hyper-efficient workflow, and what it has helped them achieve.
 
     Links from the show:
@@ -289,9 +289,9 @@
   mp3: "https://media.transistor.fm/88860d7f/80fe0e9c.mp3"
   guests:
     - anasuya-sengupta
-  description: |
+  subheadline: |
     The biggest decision in publishing is ‘who gets published?’ Whose ideas, world views, and idioms get added to the great library?
-  notes: |
+  description: |
     Anasuya Sengupta is the Co-founder and Co-Director of Whose Knowledge?, a global campaign to center the knowledge of marginalized communities on the Internet. Before that, she was Chief Grantmaking Officer at the Wikimedia Foundation, and a program director at the Global Fund for Women. She is a thoughtful, pragmatic leader whose work continually inspires and effects change – not least at Wikipedia, one of the world’s most prominent publications.
 
     In this in-depth conversation, Arthur and Anasuya discuss the bigger picture: where book publishing fits into the universe of human knowledge, and what that means for our decisions as book-makers.
@@ -312,9 +312,9 @@
   mp3: "https://media.transistor.fm/fa77800e/b75f626e.mp3"
   guests:
     - andres-barragan
-  description: |
+  subheadline: |
     There are so many interesting people in book-making; people who cross boundaries and live for the thrill of making art with other people. People like Andrés Barragán: rock guitarist, engineer, writer, agent, and founder of Colombian publishing company Puntoaparte Editores.
-  notes: |
+  description: |
     For nearly 20 years, Andrés has been creating beautiful, infographic books for many of the world's leading brands and organisations, winning multiple awards, and publishing his own books too. Before starting Puntoaparte, he was the lead guitarist for the influential hardcore band Ultrageno, and studied literature and industrial engineering. He has co-founded a literary agency, and is the author of *Biblioperrito*, a children's book about a dog who loves books.
 
     In this in-depth conversation, Andrés talks about his journey from musician to publisher, how his team makes infographic books, and what is changing about the way books are written and distributed.
@@ -345,9 +345,9 @@
   mp3: "https://media.transistor.fm/148d2cd9/8fb0d33f.mp3"
   guests:
     - frances-pinter
-  description: |
+  subheadline: |
     Open-access publishing models are so ubiquitous today that we forget they had to be invented first – by bold, generous publishers.
-  notes: |
+  description: |
     In this episode, Arthur talks to one of those inventors: Frances Pinter has been pioneering for decades, running her own academic publishing company for over twenty years, and then leading publishing programmes in Eastern Europe for the Open Society Institute. She’s been the founding publisher at Bloomsbury Academic, the CEO of Manchester University Press, a fellow at the LSE and the University of London, and founded the groundbreaking organisation Knowledge Unlatched. Today, she’s the Executive Chair of the Central European University Press.
 
     Frances and Arthur talk about Knowledge Unlatched, her work in Eastern Europe, maintaining quality in publishing, the impact of open-access publishing on COVID research, and what it takes to start a new publishing business today.

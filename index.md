@@ -13,4 +13,3 @@ A podcast about the art and science of&nbsp;making&nbsp;books
 {% include follow.html %}
 
 {% include episodes.liquid %}
-

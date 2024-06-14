@@ -29,8 +29,8 @@
         {% assign page-title = site.data.settings.title %}
     {% endif %}
 
-    {% if this-episode.description %}
-        {% assign page-description = this-episode.description %}
+    {% if this-episode.subheadline %}
+        {% assign page-description = this-episode.subheadline %}
     {% else %}
         {% assign page-description = site.data.settings.description %}
     {% endif %}
