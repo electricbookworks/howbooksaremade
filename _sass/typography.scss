@@ -255,16 +255,20 @@ form {
 
         // Hide contents unless target or only episode
         .player,
-        .notes {
+        .description {
             display: none;
         }
         &:target,
         &:first-child {
             .guests,
             .player,
-            .description,
-            .notes {
+            .subheadline,
+            .description {
                 display: initial;
+            }
+
+            .subheadline {
+                font-style: italic;
             }
         }
 
@@ -272,7 +276,7 @@ form {
             margin: 0 0 0.5rem 0;
 
             // If no guests, add margin
-            & + .description {
+            & + .subheadline {
                 margin-top: 1rem;
             }
         }
@@ -295,8 +299,8 @@ form {
             float: right;
         }
 
-        .description,
-        .notes {
+        .subheadline,
+        .description {
             & > ul, & > ol {
                 list-style-type: disc;
                 padding-left: 1rem;
